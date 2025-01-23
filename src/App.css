@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    overflow-x: hidden;
   }
   
   .mainContainer {
@@ -85,6 +86,28 @@ body {
   p {
     text-align: center;
     color: #333;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .socialLinks {
+    margin-top: 10px;
+  }
+  
+  .socialLinks a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .socialLinks a:hover {
+    text-decoration: underline;
   }
   @media only screen and (max-width: 768px) {
     .mainContainer {
